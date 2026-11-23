@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - College of Human Ecology</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="img.png" alt="NVSU Logo" class="logo">
+            <div class="header-text">
+                <h1>College of Human Ecology</h1>
+                <p>Nueva Vizcaya State University — Bayombong Campus</p>
+            </div>
+        </div>
+       <nav class="navbar" aria-label="Main navigation"><ul>
+<li><a href="index.html">Home</a></li><li><a href="VMGO.html">VMGO</a></li><li><a href="Curricular.html">Curricular Offerings</a></li><li><a href="Salient.html">Salient Accomplishments</a></li><li><a href="Links.html">Links</a></li><li><a href="Registration.HTML">Register</a></li><li><a href="Log%20in.html">Log in</a></li>
+</ul></nav>
+    </header>
+
+    <main class="content">
+        <div class="main-content form-container">
+            <section class="register-section">
+                <h2>Student Registration Form</h2>
+                <p class="form-subtitle">Fill in your details to register</p>
+
+                <form action="#" method="POST" class="register-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstname">First Name *</label>
+                            <input type="text" id="firstname" name="firstname" required placeholder="Enter your first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name *</label>
+                            <input type="text" id="lastname" name="lastname" required placeholder="Enter your last name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="example@nvsu.edu.ph">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="student-id">Student ID Number</label>
+                        <input type="text" id="student-id" name="student-id" placeholder="e.g., 2024-12345">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="program">Program / Course *</label>
+                        <select id="program" name="program" required>
+                            <option value="">-- Select your program --</option>
+                            <option value="bshm">Bachelor of Science in Hospitality Management</option>
+                            <option value="bstm">Bachelor of Science in Tourism Management</option>
+                            <option value="bsht">Bachelor of Science in Home Technology</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Full Address</label>
+                        <textarea id="address" name="address" rows="3" placeholder="Your complete address"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Contact Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="09XX-XXX-XXXX">
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="https://nvsu.edu.ph/" target="_blank" rel="noopener">Terms & Conditions</a> and <a href="https://www.nvsu.edu.ph/about/privacy-notice" target="_blank" rel="noopener">Privacy Policy</a></label>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="reset" class="btn-reset">Reset Form</button>
+                        <button type="submit" class="btn-submit">Submit Registration</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <aside class="sidebar">
+            <div class="campus-list">
+                <h3>Bayombong Campus</h3>
+                <label><input type="checkbox"> College of Agriculture</label><br>
+                <label><input type="checkbox"> College of Arts & Sciences</label><br>
+                <label><input type="checkbox"> College of Business Education</label><br>
+                <label><input type="checkbox"> College of Engineering</label><br>
+                <label><input type="checkbox"> College of Forestry, Environmental and Resource Management</label><br>
+                <label><input type="checkbox"> College of Human Ecology</label><br>
+                <label><input type="checkbox"> College of Teacher Education</label><br>
+                <label><input type="checkbox"> College of Veterinary Medicine</label><br>
+
+                <h3>Bambang Campus</h3>
+                <label><input type="checkbox"> College of Arts & Sciences</label><br>
+                <label><input type="checkbox"> College of Engineering</label><br>
+                <label><input type="checkbox"> College of Industrial Technology</label><br>
+                <label><input type="checkbox"> College of Teacher Education</label><br>
+            </div>
+
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="https://www.nvsu.edu.ph/">• NVSU Main Portal</a></li>
+                    <li><a href="https://sias.nvsu.edu.ph/">• Student Information System</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
